@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href=".css/modern-normalize.min.css"/>
         <title>corporate page</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,14 +29,18 @@
                             <li><a class="menu" href="">Contacts</a></li>
                         </ul>
                     </nav>
+                    
+                    
                     <div class="contact-up">
-                        <a class="contact" href="mailto:info@devstutio.com"
-                            >info@devstutio.com</a
-                        >
-                        <a class="contact" href="phone:+121277224150"
-                            >+1 212-772-24150</a
-                        >
-                    </div>
+                        <div class="mailto">
+                        <svg width="16px" height="12px"> <use href="./images/icons.svg#icon-envelope"></use></svg>
+                        <a  class="contact" href="mailto:info@devstutio.com">
+                            info@devstutio.com</a
+                        ></div>
+                        <a  class="contact" href="phone:+121277224150"><svg width="10px" height="16px"><use href="./images/icons.svg#icon-smartphone"></use></svg>
+                            +1 212-772-24150</a
+                        ></div>
+                    
                 </div>
             </div>
         </header>
