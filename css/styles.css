@@ -11,6 +11,16 @@ body {
     padding-bottom: 94px;
 }
 
+.check {
+    fill: currentColor;
+}
+
+.contact-svg {
+    fill: currentColor;
+
+    align-content: center;
+}
+
 .container {
     width: 1200px;
     margin-left: 215px;
@@ -45,8 +55,9 @@ header {
 .contact-up {
     display: flex;
     justify-content: flex-end;
-    gap: 50px;
+    gap: 30px;
     font-weight: 500;
+    text-align: center;
 }
 
 button:hover,
@@ -82,13 +93,23 @@ li {
 }
 
 .contact {
+    margin: 0 auto;
     color: #757575;
     font-size: 14px;
     line-height: 1.14;
+    width: 161px;
+    align-items: center;
 }
+
 a:hover,
 a:focus {
     color: #2196f3;
+}
+
+.icon-menu {
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    padding-top: 25px;
 }
 
 .logo {
@@ -120,6 +141,13 @@ h3 {
 
     font-weight: 700;
 }
+
+h4 {
+    font-size: 14px;
+
+    font-weight: 700;
+    color: #fff;
+}
 .big-button {
     display: flex;
     align-items: center;
@@ -144,7 +172,10 @@ h3 {
     font-weight: 700;
 }
 .banner {
-    background-color: #2f303a;
+    background-image: url(/goit-markup-hw-04/images/back.jpg);
+    background-image: linear-gradient(to right, #2f303a 40%);
+    max-width: 1600px;
+
     height: 600px;
 }
 
@@ -194,10 +225,37 @@ img {
     height: 260px;
 }
 
+.social-icons {
+    padding-top: 16px;
+    padding-bottom: 30px;
+    display: flex;
+    width: 206px;
+    height: 44px;
+    justify-content: space-between;
+}
+.social {
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+
+    background-color: white;
+}
+
+ul.social-icons li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social:hover {
+    fill: white;
+    background-color: #2196f3;
+}
+
 .person-space {
     background-color: #fff;
     width: 270px;
-    height: 368px;
+    height: 428px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 
@@ -222,6 +280,19 @@ img {
     color: #757575;
     line-height: 1.17;
     padding-top: 10px;
+}
+
+.customers {
+}
+.icon-customer {
+    background-color: #fff;
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    padding-left: 32px;
+    padding-top: 16px;
 }
 
 address {
