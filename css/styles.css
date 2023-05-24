@@ -176,8 +176,9 @@ h4 {
     background-image: linear-gradient(to right, #2f303a 40%);
     max-width: 1600px;
 
-    height: 600px;
-    background-position: 50% 50%;
+    height: 636px;
+    margin: auto;
+    background-position: center;
 }
 
 .highlights {
