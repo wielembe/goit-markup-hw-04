@@ -172,13 +172,15 @@ h4 {
     font-weight: 700;
 }
 .banner {
-    background-image: url(/goit-markup-hw-04/images/back.jpg);
+    background-image: url(/goit-markup-hw-04/images/back-test.jpg);
     background-image: linear-gradient(to right, #2f303a 40%);
+
+    background-position: center;
+    background-size: cover;
     max-width: 1600px;
 
-    height: 636px;
-    margin: auto;
-    background-position: center;
+    height: 600px;
+    padding: 0;
 }
 
 .highlights {
