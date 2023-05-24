@@ -177,6 +177,7 @@ h4 {
     max-width: 1600px;
 
     height: 600px;
+    background-position: 50% 50%;
 }
 
 .highlights {
@@ -226,6 +227,7 @@ img {
 }
 
 .social-icons {
+    fill: #afb1b8;
     padding-bottom: 30px;
     display: flex;
     width: 206px;
