@@ -236,6 +236,14 @@ img {
     margin: 0 auto;
     padding: 0;
 }
+
+.social-bottom > .social-icons {
+    fill: #fff;
+}
+
+.social-bottom > .social-icons > .social {
+    background-color: rgba(255, 255, 255, 0.1);
+}
 .social {
     width: 44px;
     height: 44px;
@@ -255,6 +263,9 @@ ul.social-icons li {
     background-color: #2196f3;
 }
 
+.social-bottom > .social-icons > .social:hover {
+    background-color: #2196f3;
+}
 .person-space {
     background-color: #fff;
     width: 270px;
@@ -327,6 +338,10 @@ address {
 
 .address-bottom {
     max-width: 231px;
+}
+
+ul li .find-us {
+    fill: #fff;
 }
 
 footer {
